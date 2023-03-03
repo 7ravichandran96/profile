@@ -453,8 +453,8 @@ form .message{
 } */
 
 .info h3{
-  text-align: justify;
-  font-size: x-large;
+  text-align: left;
+  font-size: large;
 }
 .contact h3{
   text-align: center;
