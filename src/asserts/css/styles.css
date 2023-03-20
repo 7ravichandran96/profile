@@ -10,7 +10,9 @@
   font-family: 'Shantell Sans', cursive;
 
 }
-
+::-webkit-scrollbar {
+  display: none;
+ }
 
 *::selection {
   background: var(--sub);
@@ -123,6 +125,7 @@ header {
   text-align: center;
   transition: 0.5s;
   z-index: 1;
+  overflow: scroll;
 }
 
 
@@ -932,7 +935,7 @@ footer{
     grid-template-columns: 30% 70%;
   }
   header{
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     scroll-behavior: smooth;
     scroll-margin: none;
   }
@@ -1116,7 +1119,7 @@ html{
   
   header{
     width: 30%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     scroll-behavior: smooth;
     scroll-margin: none;
   }
@@ -1218,7 +1221,7 @@ html{
 
   header{
     width: 30%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     scroll-behavior: smooth;
     scroll-margin: none;
   }
