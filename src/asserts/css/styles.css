@@ -412,9 +412,10 @@ main{
 }
 
 .portfolio {
-  display: grid;
+  display: grid !important;
   grid-template-columns: auto !important;
-  text-indent: 30px;
+  text-indent: 30px !important;
+  text-align: justify !important;
 
 }
 form {
