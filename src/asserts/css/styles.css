@@ -454,6 +454,7 @@ h1 {
 }
 
 .hire{
+  
   margin-top: 35px !important;
 }
 .subColor{
@@ -528,8 +529,7 @@ footer{
  
 }
 .copyRights{
-  
-  padding: 10px 30px;
+  padding: 10px 10px;
 }
 footer a{
   text-decoration: none;
@@ -811,6 +811,7 @@ footer{
  font-size: large;
   left: 0%;
 }
+
 }
 
 /* mobile and tab media ends */
@@ -1014,7 +1015,11 @@ footer{
  font-size: large;
   left: 20%;
   height: 8vh;
-
+ 
+}
+.copyRights{
+ text-align: center;
+ padding: 0;
 }
 }
 
@@ -1132,7 +1137,10 @@ html{
     left: 20%;
     height: 6vh;
   }
-
+  .copyRights{
+    text-align: center;
+    padding: 0;
+   }
 }
 
 @media (min-width: 1200px) {
@@ -1231,5 +1239,9 @@ html{
     left: 20%;
    
   }
+  .copyRights{
+    text-align: center;
+    padding: 0;
+   }
 }
 
