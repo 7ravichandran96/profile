@@ -213,9 +213,7 @@ header {
   padding: 10px 5px;
 }
 
-section {
-  min-height: 10vh;
-}
+
 
 .btns{
   background: var(--title);
@@ -614,7 +612,9 @@ a:focus{
     color: var(--title);
 
   }
-
+ /* section{
+    min-height: 20vh;
+ } */
 
   .navBar ul {
     margin-top: 30px;
