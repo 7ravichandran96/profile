@@ -116,6 +116,7 @@ header {
   border: 8px solid var(--sub);
   margin: 20px 10px;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .profile img:hover {
@@ -226,6 +227,8 @@ section{
   gap: 30px;
   transition: 0.3s;
   margin-bottom: 10vh;
+  border: none;
+  outline: none;
   
 }
 
@@ -453,7 +456,8 @@ h1 {
 }
 
 .hire{
-  
+  border: none;
+  outline: none;
   margin-top: 35px !important;
 }
 .subColor{
@@ -578,7 +582,7 @@ a:focus{
    transition: 1.2s;
  }
   .profile img {
-    width: 150px;
+    width: 140px;
     height: 150px;
     border: 8px solid var(--title);
 
@@ -613,9 +617,6 @@ a:focus{
     color: var(--title);
 
   }
- /* section{
-    min-height: 20vh;
- } */
 
   .navBar ul {
     margin-top: 30px;
@@ -731,7 +732,7 @@ footer{
   }
 
   .profile img {
-    width: 150px;
+    width: 140px;
     height: 150px;
     border: 8px solid var(--title);
 
@@ -844,16 +845,12 @@ footer{
     grid-template-columns: 30% 70%;
   }
   header{
-    /* overflow-y: scroll; */
     scroll-behavior: smooth;
     scroll-margin: none;
   }
   main{
     margin: 0 3vw 1vh 8vw ;
   }
- 
-
- 
 
   .highLight{
     color: var(--main);
@@ -862,14 +859,13 @@ footer{
    color: var(--mat);
  }
   .profile img {
-    width: 140px;
-    height: 150px;
-    border: 8px solid var(--main);
-    margin:  auto;
+    width: 100px;
+    height: 110px;
+    border: 6px solid var(--main);
   }
 
   .profile img:hover {
-    border: 8px solid var(--mat);
+    border: 6px solid var(--mat);
   }
 
   .profile .name {
@@ -897,15 +893,14 @@ footer{
   }
 
   .navBar {
-    /* margin-top: -40px; */
-    margin: -8vh auto;
+    margin: 5vh auto;
   }
 
   .navBar ul li a {
     color: var(--font);
     border: 2px solid var(--main);
     font-size: 15px;
-    width: 80%;
+    width: 100%;
     margin: auto auto;
   }
 
@@ -913,7 +908,7 @@ footer{
     background: var(--mat);
     color: var(--background);
     border: 2px solid var(--main);
-    width: 80%;
+    width: 100%;
     font-size: 18px;
     margin: auto auto;
   }
@@ -1040,7 +1035,6 @@ html{
   
   header{
     width: 30%;
-    /* overflow-y: scroll; */
     scroll-behavior: smooth;
     scroll-margin: none;
   }
@@ -1087,7 +1081,6 @@ html{
     color: var(--font);
     border: 2px solid var(--sub);
     font-size: 25px;
-    /* padding: 10px 15px; */
     width: 100%;
     margin: auto;
   }
@@ -1157,7 +1150,6 @@ html{
 
   header{
     width: 30%;
-    /* overflow-y: scroll; */
     scroll-behavior: smooth;
     scroll-margin: none;
   }
@@ -1196,7 +1188,6 @@ html{
     color: var(--font);
     border: 2px solid var(--sub);
     font-size: 25px;
-    /* padding: 10px 15px; */
     width: 90%;
     margin: auto auto;
   }
