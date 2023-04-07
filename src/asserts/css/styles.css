@@ -116,7 +116,6 @@ header {
   border: 8px solid var(--sub);
   margin: 20px 10px;
   transition: 0.5s;
-  /* visibility: hidden; */
 }
 
 .profile img:hover {
@@ -1051,10 +1050,10 @@ html{
  
 
   .profile img {
-    width: 180px;
-    height:200px;
+    width: 140px;
+    height:150px;
     border: 8px solid var(--sub);
-    margin-bottom: -10px;
+   
   }
 
   .profile img:hover {
@@ -1089,14 +1088,14 @@ html{
     border: 2px solid var(--sub);
     font-size: 25px;
     /* padding: 10px 15px; */
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 
   .navBar ul li a:hover {
     background: var(--title);
     border: 2px solid var(--sub);
-    width: 80%;
+    width: 100%;
     font-size: 28px;
     margin: auto auto;
   }
